@@ -1,13 +1,12 @@
-
 body {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 
-.cabecalho h1{
+.cabecalho h1 {
     text-align: center;
     color: purple;
 }
 
-.links a{
-    color: white;
+.links a {
+    color: rgb(0, 0, 0);
 }
