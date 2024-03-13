@@ -1,0 +1,13 @@
+
+body {
+    background-color: black;
+}
+
+.cabecalho h1{
+    text-align: center;
+    color: purple;
+}
+
+.links a{
+    color: white;
+}
