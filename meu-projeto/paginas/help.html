@@ -1,39 +1,66 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HELP</title>
-</head>
-<body>
-    <div class="conteiner">
-		<header class="cabecalho">
-			<h1
-				style="text-align: center; color: white; 
-						background-color: rgb(9, 5, 5);padding: 10px 0;
-						box-shadow:  4px 3px 5px #ff0000; 
-						border-radius: 5px; 
-						font-size: 64px;
-						"
-					>
-					HELP
-			</h1>
-			<nav>
-				<ul>
-					<li><a href="../index.html">Home </a></li>
-					<li><a href="./about.html">About </a></li>
-					<li><a href="../index.html#contact">Contact </a></li>
-				</ul>
-			</nav>
-		</header>
 
-        <section class="conteudo-help">
-            <figure>
-                <img src="../IMG/help-2478193_1280.jpg" alt="Mão com texto help.">
-                <figcaption>Toda Ajuda é Bem Vinda</figcaption>
-            </figure>
-        </section>
-        
-    </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HELP</title>
+  <link rel="stylesheet" href="../css/estilo.css">
+</head>
+
+<body>
+  <div class="container">
+    <header id="cabecalho">
+      <h1>Help</h1>
+
+      <nav id="menu">
+        <ul>
+          <li class="link">
+            <a href="../index.html">
+              <img src="../img/home.png" alt="Caixa de texto com uma Interrogação." />
+            </a>
+          </li>
+          <li class="link">
+            <a href="../paginas/about.html">
+              <img src="../img/about.png" alt="Letra i em um circulo." />
+            </a>
+          </li>
+          <li class="link">
+            <a href="#contact"> <img src="../img/contact.png" alt="Envelope de carta." /> </a>
+          </li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <section class="conteudo">
+      <figure>
+        <img src="../img/helpimg.jpg" alt="Mão com texto help." />
+        <figcaption>Toda ajuda é bem vinda!</figcaption>
+      </figure>
+    </section>
+    <section>
+      <div id="contact">
+        <h2>CONTACT</h2>
+        <form>
+          <fieldset>
+            <legend>Customer Contact</legend>
+            <div>
+              <label for="idNm">Name</label>
+              <input type="text" name="txtNm" id="idNm" placeholder="Type your name..." />
+            </div>
+            <div>
+              <label for="idEmail">Email</label>
+              <input type="email" name="txtEmail" id="idEmail" placeholder="Type your email..." />
+            </div>
+            <div>
+              <button type="button">Send</button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+  </div>
 </body>
+
 </html>
