@@ -1,9 +1,10 @@
-html{
+html {
     font-size: 16px;
 }
 
-#cabecalho{
-    font-size: 62.5%;/* 1rem = 10px */
+#cabecalho {
+    font-size: 62.5%;
+    /* 1rem = 10px */
     background-image: url('../img/img-01-banner-1280×640.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -19,12 +20,13 @@ h1 {
     text-align: center;
 }
 
-h1, h2{
+h1,
+h2 {
     font-family: sans-serif;
 }
 
-#conteudo{
-    line-height: 1.5; 
+#conteudo {
+    line-height: 1.5;
 }
 
 #contact {
@@ -32,7 +34,7 @@ h1, h2{
     padding: 10px;
 }
 
-#cabecalho h1{
+#cabecalho h1 {
     text-align: center;
     color: #fff;
     background-color: #100000;
@@ -55,35 +57,35 @@ p {
     border-top: solid 2px red;
 }
 
-.rodape nav a{
+.rodape nav a {
     font-weight: bold;
 }
 
-.container{
+.container {
     margin: 20px;
 }
 
 .link {
-display: inline-block;
-margin: 0 5% 1% 5%;
-border: solid 2px red;
-background-color: rgb(255, 0, 0, 0.2);
-border-radius: 5px;
-transition: background-color 0.3s ease-in;
+    display: inline-block;
+    margin: 0 5% 1% 5%;
+    border: solid 2px red;
+    background-color: rgb(255, 0, 0, 0.2);
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in;
 
-    &:hover{
+    &:hover {
         background-color: red;
     }
 
-a{
+    a {
         text-decoration: none;
         color: red;
 
-        img{
+        img {
             display: inline-block;
             width: 50%;
         }
-}
+    }
 
 }
 
