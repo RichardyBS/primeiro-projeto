@@ -5,7 +5,7 @@ html {
 #cabecalho {
     font-size: 62.5%;
     /* 1rem = 10px */
-    background-image: url('../img/img-01-banner-1280×640.png');
+    background-image: url('../img/bannerhome.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -36,12 +36,8 @@ h2 {
 
 #cabecalho h1 {
     text-align: center;
-    color: #fff;
-    background-color: #100000;
+    color: #ff0000;
     padding: 20px 0;
-    box-shadow: 4px 3px 5px #41416d;
-    border-radius: 5px;
-    font-size: 64px;
 }
 
 #contact button {
